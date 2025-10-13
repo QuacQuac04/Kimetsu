@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: 259dbb56ad7d99f4c82c9d177cadc678
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8596146505680618973
+    second: Inosuke_0
+  - first:
+      213: 4949328368021569535
+    second: Inosuke_1
+  - first:
+      213: -9201283281527380410
+    second: Inosuke_2
+  - first:
+      213: 5787097738792912902
+    second: Inosuke_3
+  - first:
+      213: -2530282112884738994
+    second: Inosuke_4
+  - first:
+      213: 8615973076875990602
+    second: Inosuke_5
+  - first:
+      213: 6910878009810687682
+    second: Inosuke_6
+  - first:
+      213: 8862659427908555445
+    second: Inosuke_7
+  - first:
+      213: 8218260743032901228
+    second: Inosuke_8
+  - first:
+      213: 6994584689035028862
+    second: Inosuke_9
+  - first:
+      213: 415988473111113250
+    second: Inosuke_10
+  - first:
+      213: 834979306227250459
+    second: Inosuke_11
+  - first:
+      213: -4858171946222455835
+    second: Inosuke_12
+  - first:
+      213: 2923478657806555021
+    second: Inosuke_13
+  - first:
+      213: -1361837216036822713
+    second: Inosuke_14
+  - first:
+      213: -897876517571359818
+    second: Inosuke_15
+  - first:
+      213: 1100384532668382762
+    second: Inosuke_16
+  - first:
+      213: -3831103480351380946
+    second: Inosuke_17
+  - first:
+      213: -3793195407612458244
+    second: Inosuke_18
+  - first:
+      213: 7525786893103132625
+    second: Inosuke_19
+  - first:
+      213: 4307338542187667176
+    second: Inosuke_20
+  - first:
+      213: 8206465185382735108
+    second: Inosuke_21
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Inosuke_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 877
+        width: 93
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32af0b32c4a54b880800000000000000
+      internalID: -8596146505680618973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 911
+        width: 90
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff70b49deb8fa440800000000000000
+      internalID: 4949328368021569535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_2
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 798
+        width: 102
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646e1de1b997e4080800000000000000
+      internalID: -9201283281527380410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_3
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 840
+        width: 75
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 608c7396bb6ef4050800000000000000
+      internalID: 5787097738792912902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_4
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 816
+        width: 78
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e44faf703d1a2ecd0800000000000000
+      internalID: -2530282112884738994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_5
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 706
+        width: 107
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a46d5813dd5129770800000000000000
+      internalID: 8615973076875990602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_6
+      rect:
+        serializedVersion: 2
+        x: 111
+        y: 752
+        width: 79
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c613dc3fee58ef50800000000000000
+      internalID: 6910878009810687682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 643
+        width: 109
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b291c51bcd7efa70800000000000000
+      internalID: 8862659427908555445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_8
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 659
+        width: 71
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6e83048a902d0270800000000000000
+      internalID: 8218260743032901228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_9
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 573
+        width: 112
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e79a15d37b1c11160800000000000000
+      internalID: 6994584689035028862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_10
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 637
+        width: 70
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22ee172ff43e5c500800000000000000
+      internalID: 415988473111113250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_11
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 477
+        width: 118
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b153a7e4141769b00800000000000000
+      internalID: 834979306227250459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_12
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 536
+        width: 64
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e374a7ca5e449cb0800000000000000
+      internalID: -4858171946222455835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_13
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 417
+        width: 119
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d87defa9958429820800000000000000
+      internalID: 2923478657806555021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_14
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 437
+        width: 63
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 741e7307448c91de0800000000000000
+      internalID: -1361837216036822713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_15
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 352
+        width: 134
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb8efd701a1a83f0800000000000000
+      internalID: -897876517571359818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_16
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 367
+        width: 51
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e780207e9554f00800000000000000
+      internalID: 1100384532668382762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_17
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 261
+        width: 140
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2aa4e3ceaf25dac0800000000000000
+      internalID: -3831103480351380946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_18
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 328
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfacd9dbfdcdb5bc0800000000000000
+      internalID: -3793195407612458244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_19
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 260
+        width: 39
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dfe3b25e47f07860800000000000000
+      internalID: 7525786893103132625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_20
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 142
+        width: 167
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8eed176359db6cb30800000000000000
+      internalID: 4307338542187667176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Inosuke_21
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 5
+        width: 172
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40d195c3b9833e170800000000000000
+      internalID: 8206465185382735108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Inosuke_0: -8596146505680618973
+      Inosuke_1: 4949328368021569535
+      Inosuke_10: 415988473111113250
+      Inosuke_11: 834979306227250459
+      Inosuke_12: -4858171946222455835
+      Inosuke_13: 2923478657806555021
+      Inosuke_14: -1361837216036822713
+      Inosuke_15: -897876517571359818
+      Inosuke_16: 1100384532668382762
+      Inosuke_17: -3831103480351380946
+      Inosuke_18: -3793195407612458244
+      Inosuke_19: 7525786893103132625
+      Inosuke_2: -9201283281527380410
+      Inosuke_20: 4307338542187667176
+      Inosuke_21: 8206465185382735108
+      Inosuke_3: 5787097738792912902
+      Inosuke_4: -2530282112884738994
+      Inosuke_5: 8615973076875990602
+      Inosuke_6: 6910878009810687682
+      Inosuke_7: 8862659427908555445
+      Inosuke_8: 8218260743032901228
+      Inosuke_9: 6994584689035028862
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
