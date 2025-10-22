@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: ce3c902e6a2804b4cb8bb440915a483c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5552390493938032875
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_0"
+  - first:
+      213: 2194737952736897415
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_1"
+  - first:
+      213: 1750864670224249945
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_2"
+  - first:
+      213: -3545568598697078644
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_3"
+  - first:
+      213: 3664584886106414852
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_4"
+  - first:
+      213: 6734135655199092621
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_5"
+  - first:
+      213: 2092161553696902143
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_6"
+  - first:
+      213: -6673225743908932962
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_7"
+  - first:
+      213: -6406775747372527235
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_8"
+  - first:
+      213: -8588381256140937264
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_9"
+  - first:
+      213: -362616337642431743
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_10"
+  - first:
+      213: 8316343366729787060
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_11"
+  - first:
+      213: 310695590104436231
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_12"
+  - first:
+      213: 5642822686345963260
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_13"
+  - first:
+      213: -3702969052452530816
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_14"
+  - first:
+      213: -807474821584564739
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_15"
+  - first:
+      213: 445868737559655132
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_16"
+  - first:
+      213: -2841619355602836346
+    second: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be0ae658cbd0e0d40800000000000000
+      internalID: 5552390493938032875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_1"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78963ff2a86457e10800000000000000
+      internalID: 2194737952736897415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_2"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9547f7e14225c4810800000000000000
+      internalID: 1750864670224249945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_3"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8091eb052c9bcec0800000000000000
+      internalID: -3545568598697078644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_4"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40f53a1c9883bd230800000000000000
+      internalID: 3664584886106414852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_5"
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8f2f6d03b4747d50800000000000000
+      internalID: 6734135655199092621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_6"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffb45dc29d9d80d10800000000000000
+      internalID: 2092161553696902143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_7"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92f05cca80f363a0800000000000000
+      internalID: -6673225743908932962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_8"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d71d54ef66f8617a0800000000000000
+      internalID: -6406775747372527235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_9"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7a81030c0ffc880800000000000000
+      internalID: -8588381256140937264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_10"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10bd115bc5ab7faf0800000000000000
+      internalID: -362616337642431743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_11"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b6ea1cea36996370800000000000000
+      internalID: 8316343366729787060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_12"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70e84793effcf4400800000000000000
+      internalID: 310695590104436231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_13"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6aa2616555f4e40800000000000000
+      internalID: 5642822686345963260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_14"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0855d4614496c9cc0800000000000000
+      internalID: -3702969052452530816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_15"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfd416e8de54bc4f0800000000000000
+      internalID: -807474821584564739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_16"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd2f1b6214b003600800000000000000
+      internalID: 445868737559655132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_17"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6842b6a604a8098d0800000000000000
+      internalID: -2841619355602836346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_0": 5552390493938032875
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_1": 2194737952736897415
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_10": -362616337642431743
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_11": 8316343366729787060
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_12": 310695590104436231
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_13": 5642822686345963260
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_14": -3702969052452530816
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_15": -807474821584564739
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_16": 445868737559655132
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_17": -2841619355602836346
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_2": 1750864670224249945
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_3": -3545568598697078644
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_4": 3664584886106414852
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_5": 6734135655199092621
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_6": 2092161553696902143
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_7": -6673225743908932962
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_8": -6406775747372527235
+      "Server_ \u0110a\u0309o tham lam  sao che\u0301p sao che\u0301p_9": -8588381256140937264
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

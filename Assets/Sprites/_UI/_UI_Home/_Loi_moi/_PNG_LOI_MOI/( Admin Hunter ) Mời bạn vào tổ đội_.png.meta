@@ -1,0 +1,434 @@
+fileFormatVersion: 2
+guid: 18592cc5fdd0249f097c4fa0f391f6f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4431925382928003719
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__0"
+  - first:
+      213: 3643099781611148505
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__1"
+  - first:
+      213: -8056188915734842176
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__2"
+  - first:
+      213: -3437023941152067607
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__3"
+  - first:
+      213: 1518523995179695547
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__4"
+  - first:
+      213: 7045462985419010465
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__5"
+  - first:
+      213: -3047369200216905677
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__6"
+  - first:
+      213: -5698205797433909289
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__7"
+  - first:
+      213: -710523146213829836
+    second: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+      \u0111o\u0323\u0302i__8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2
+        width: 14
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d0a877853ae72c0800000000000000
+      internalID: -4431925382928003719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__1"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 85
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d45c3c03f3ee8230800000000000000
+      internalID: 3643099781611148505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__2"
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 4
+        width: 95
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c47f2a5ddaa23090800000000000000
+      internalID: -8056188915734842176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__3"
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 2
+        width: 15
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ef2e178fec3d40d0800000000000000
+      internalID: -3437023941152067607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__4"
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 4
+        width: 55
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbdb7933781e21510800000000000000
+      internalID: 1518523995179695547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__5"
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 0
+        width: 49
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1301cb14386c160800000000000000
+      internalID: 7045462985419010465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__6"
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 4
+        width: 48
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 338ea99abd195b5d0800000000000000
+      internalID: -3047369200216905677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__7"
+      rect:
+        serializedVersion: 2
+        x: 369
+        y: 4
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df51e28408ebe0b0800000000000000
+      internalID: -5698205797433909289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309
+        \u0111o\u0323\u0302i__8"
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 0
+        width: 55
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4335b3986f6b326f0800000000000000
+      internalID: -710523146213829836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__0": -4431925382928003719
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__1": 3643099781611148505
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__2": -8056188915734842176
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__3": -3437023941152067607
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__4": 1518523995179695547
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__5": 7045462985419010465
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__6": -3047369200216905677
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__7": -5698205797433909289
+      "( Admin Hunter ) Mo\u031B\u0300i ba\u0323n va\u0300o to\u0302\u0309 \u0111o\u0323\u0302i__8": -710523146213829836
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

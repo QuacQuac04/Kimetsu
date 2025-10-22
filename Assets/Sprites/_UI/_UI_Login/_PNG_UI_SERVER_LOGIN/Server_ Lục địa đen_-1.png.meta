@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 07a3c4a6a214d46f5b03ff0e688ae59d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1767310565365045351
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_0"
+  - first:
+      213: -974064163883104158
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_1"
+  - first:
+      213: 8106082358205065778
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_2"
+  - first:
+      213: 4903841578252633065
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_3"
+  - first:
+      213: 295812362904548353
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_4"
+  - first:
+      213: 433331432320483535
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_5"
+  - first:
+      213: -2532385438073373638
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_6"
+  - first:
+      213: 2257566228678934355
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_7"
+  - first:
+      213: -8697574529327643578
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_8"
+  - first:
+      213: 1514038348649485826
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_9"
+  - first:
+      213: 3354888963849539759
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_10"
+  - first:
+      213: 7719909372888751054
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_11"
+  - first:
+      213: 384363207015330657
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_12"
+  - first:
+      213: -7404112326151226142
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_13"
+  - first:
+      213: -5982417432598250133
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_14"
+  - first:
+      213: 4395541170059158223
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_15"
+  - first:
+      213: 8154744017263814259
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_16"
+  - first:
+      213: 9117435612269074075
+    second: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 768d068789fb68810800000000000000
+      internalID: 1767310565365045351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_1"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 6
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2684f43cdcd6b72f0800000000000000
+      internalID: -974064163883104158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_2"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 6
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23aafd8f4f69e7070800000000000000
+      internalID: 8106082358205065778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_3"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 6
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e30a8a0fe1fd0440800000000000000
+      internalID: 4903841578252633065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_4"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 6
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 104381bd6cfea1400800000000000000
+      internalID: 295812362904548353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_5"
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 6
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc0497d44a0830600800000000000000
+      internalID: 433331432320483535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_6"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 18
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3cb3497cd82bdcd0800000000000000
+      internalID: -2532385438073373638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_7"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 6
+        width: 50
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f735d168c745f10800000000000000
+      internalID: 2257566228678934355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_8"
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 6
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 644c0fb1c020c4780800000000000000
+      internalID: -8697574529327643578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_9"
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 6
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206529b3bd1f20510800000000000000
+      internalID: 1514038348649485826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_10"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 25
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa05127dcb5fe8e20800000000000000
+      internalID: 3354888963849539759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_11"
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 6
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecb1e3d3ca0a22b60800000000000000
+      internalID: 7719909372888751054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_12"
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 6
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 163f0e2ec48855500800000000000000
+      internalID: 384363207015330657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_13"
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 6
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec3aaa611f4f3990800000000000000
+      internalID: -7404112326151226142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_14"
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 6
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6d70ef8a0f2afca0800000000000000
+      internalID: -5982417432598250133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_15"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 7
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc22bf4d769100d30800000000000000
+      internalID: 4395541170059158223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_16"
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 376604f5a787b2170800000000000000
+      internalID: 8154744017263814259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_17"
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 0
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b965bc31263a78e70800000000000000
+      internalID: 9117435612269074075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_0": 1767310565365045351
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_1": -974064163883104158
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_10": 3354888963849539759
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_11": 7719909372888751054
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_12": 384363207015330657
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_13": -7404112326151226142
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_14": -5982417432598250133
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_15": 4395541170059158223
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_16": 8154744017263814259
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_17": 9117435612269074075
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_2": 8106082358205065778
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_3": 4903841578252633065
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_4": 295812362904548353
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_5": 433331432320483535
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_6": -2532385438073373638
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_7": 2257566228678934355
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_8": -8697574529327643578
+      "Server_ Lu\u0323c \u0111i\u0323a \u0111en_-1_9": 1514038348649485826
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,650 @@
+fileFormatVersion: 2
+guid: 79286a53a384a48cca8d7bd9b9baab9d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3200390314148587304
+    second: "Server_ \u0110a\u0309o tham lam__0"
+  - first:
+      213: 399629104838301997
+    second: "Server_ \u0110a\u0309o tham lam__1"
+  - first:
+      213: 6576924249263622170
+    second: "Server_ \u0110a\u0309o tham lam__2"
+  - first:
+      213: 5588091505036269795
+    second: "Server_ \u0110a\u0309o tham lam__3"
+  - first:
+      213: -6445614831049565144
+    second: "Server_ \u0110a\u0309o tham lam__4"
+  - first:
+      213: -8533024787625661525
+    second: "Server_ \u0110a\u0309o tham lam__5"
+  - first:
+      213: -7693658393293938539
+    second: "Server_ \u0110a\u0309o tham lam__6"
+  - first:
+      213: 6641343671031738933
+    second: "Server_ \u0110a\u0309o tham lam__7"
+  - first:
+      213: 3692636821214677269
+    second: "Server_ \u0110a\u0309o tham lam__8"
+  - first:
+      213: -4005120361535414160
+    second: "Server_ \u0110a\u0309o tham lam__9"
+  - first:
+      213: -7948638673793897168
+    second: "Server_ \u0110a\u0309o tham lam__10"
+  - first:
+      213: -1474747038253874868
+    second: "Server_ \u0110a\u0309o tham lam__11"
+  - first:
+      213: -4455060779954678679
+    second: "Server_ \u0110a\u0309o tham lam__12"
+  - first:
+      213: -1748513669865638827
+    second: "Server_ \u0110a\u0309o tham lam__13"
+  - first:
+      213: 5614340779175374892
+    second: "Server_ \u0110a\u0309o tham lam__14"
+  - first:
+      213: -8994976642592676493
+    second: "Server_ \u0110a\u0309o tham lam__15"
+  - first:
+      213: 5452150185073362259
+    second: "Server_ \u0110a\u0309o tham lam__16"
+  - first:
+      213: 3726000921073684853
+    second: "Server_ \u0110a\u0309o tham lam__17"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d8929637fde593d0800000000000000
+      internalID: -3200390314148587304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__1"
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d295bc3bd84cb8500800000000000000
+      internalID: 399629104838301997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__2"
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a18c20832cde54b50800000000000000
+      internalID: 6576924249263622170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__3"
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 0
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e8901aed93ec8d40800000000000000
+      internalID: 5588091505036269795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__4"
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82c1d4426739c86a0800000000000000
+      internalID: -6445614831049565144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__5"
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 0
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab28f16a2b949980800000000000000
+      internalID: -8533024787625661525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__6"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 12
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590238c3472aa3590800000000000000
+      internalID: -7693658393293938539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__7"
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 0
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 532b227a1eaca2c50800000000000000
+      internalID: 6641343671031738933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__8"
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 0
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 519470ddf91ee3330800000000000000
+      internalID: 3692636821214677269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__9"
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0706fff4044fa68c0800000000000000
+      internalID: -4005120361535414160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__10"
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03d25986d33c0b190800000000000000
+      internalID: -7948638673793897168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__11"
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 0
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c41815bd165a88be0800000000000000
+      internalID: -1474747038253874868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__12"
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 964d60613d17c22c0800000000000000
+      internalID: -4455060779954678679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__13"
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 0
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5547ebec4180cb7e0800000000000000
+      internalID: -1748513669865638827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__14"
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 12
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c20fcbe41352aed40800000000000000
+      internalID: 5614340779175374892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__15"
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 0
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 375e357a66c6b2380800000000000000
+      internalID: -8994976642592676493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__16"
+      rect:
+        serializedVersion: 2
+        x: 284
+        y: 0
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 355c063e4bde9ab40800000000000000
+      internalID: 5452150185073362259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "Server_ \u0110a\u0309o tham lam__17"
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5711065b81a65b330800000000000000
+      internalID: 3726000921073684853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "Server_ \u0110a\u0309o tham lam__0": -3200390314148587304
+      "Server_ \u0110a\u0309o tham lam__1": 399629104838301997
+      "Server_ \u0110a\u0309o tham lam__10": -7948638673793897168
+      "Server_ \u0110a\u0309o tham lam__11": -1474747038253874868
+      "Server_ \u0110a\u0309o tham lam__12": -4455060779954678679
+      "Server_ \u0110a\u0309o tham lam__13": -1748513669865638827
+      "Server_ \u0110a\u0309o tham lam__14": 5614340779175374892
+      "Server_ \u0110a\u0309o tham lam__15": -8994976642592676493
+      "Server_ \u0110a\u0309o tham lam__16": 5452150185073362259
+      "Server_ \u0110a\u0309o tham lam__17": 3726000921073684853
+      "Server_ \u0110a\u0309o tham lam__2": 6576924249263622170
+      "Server_ \u0110a\u0309o tham lam__3": 5588091505036269795
+      "Server_ \u0110a\u0309o tham lam__4": -6445614831049565144
+      "Server_ \u0110a\u0309o tham lam__5": -8533024787625661525
+      "Server_ \u0110a\u0309o tham lam__6": -7693658393293938539
+      "Server_ \u0110a\u0309o tham lam__7": 6641343671031738933
+      "Server_ \u0110a\u0309o tham lam__8": 3692636821214677269
+      "Server_ \u0110a\u0309o tham lam__9": -4005120361535414160
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

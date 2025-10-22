@@ -1,0 +1,416 @@
+fileFormatVersion: 2
+guid: cf0b97388a00e48049e5f989791cfb32
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -961692422454044183
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_0"
+  - first:
+      213: -6812954707893385670
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_1"
+  - first:
+      213: -8405754930043540099
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_2"
+  - first:
+      213: -886091991805722287
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_3"
+  - first:
+      213: -8022414315284738032
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_4"
+  - first:
+      213: -133039892827494331
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_5"
+  - first:
+      213: -7124958915444252620
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_6"
+  - first:
+      213: -5780915789950653227
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_7"
+  - first:
+      213: -5370601732585746562
+    second: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_8"
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: VisionOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 12
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e9117846d167a2f0800000000000000
+      internalID: -961692422454044183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_1"
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 5
+        width: 58
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36803d2ac58371a0800000000000000
+      internalID: -6812954707893385670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_2"
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 27
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d24cd3d62c85b80800000000000000
+      internalID: -8405754930043540099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_3"
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 5
+        width: 60
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1510a163708f3b3f0800000000000000
+      internalID: -886091991805722287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_4"
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 5
+        width: 21
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 010d1705fa8aaa090800000000000000
+      internalID: -8022414315284738032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_5"
+      rect:
+        serializedVersion: 2
+        x: 182
+        y: 3
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548af0f1ce8572ef0800000000000000
+      internalID: -133039892827494331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_6"
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 0
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43061b5bd9f0f1d90800000000000000
+      internalID: -7124958915444252620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_7"
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 0
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dc6b87b7bf06cfa0800000000000000
+      internalID: -5780915789950653227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_8"
+      rect:
+        serializedVersion: 2
+        x: 343
+        y: 3
+        width: 51
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7f012bcd2ac775b0800000000000000
+      internalID: -5370601732585746562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_0": -961692422454044183
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_1": -6812954707893385670
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_2": -8405754930043540099
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_3": -886091991805722287
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_4": -8022414315284738032
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_5": -133039892827494331
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_6": -7124958915444252620
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_7": -5780915789950653227
+      "( Admin VTDC ) Kho\u0302ng giu\u0301p =))))_8": -5370601732585746562
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
