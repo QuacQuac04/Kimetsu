@@ -23,10 +23,6 @@ public class _GameManager : MonoBehaviour
     // OPTIMIZED: Single method for all scene loading
     public void LoadScene(string sceneName, bool useLoading = false)
     {
-        #if UNITY_EDITOR
-        Debug.Log("[GameManager] Loading scene: " + sceneName);
-        #endif
-        
         if (useLoading && sceneName != "_UI_Loading")
         {
             _LoadingManager._nextScene = sceneName;
@@ -48,34 +44,11 @@ public class _GameManager : MonoBehaviour
     [ContextMenu("Debug Available Scenes")]
     public void DebugAvailableScenes()
     {
-        #if UNITY_EDITOR
-        Debug.Log("=== AVAILABLE SCENES ===");
-        Debug.Log("Current Scene: " + SceneManager.GetActiveScene().name);
-        Debug.Log("Scene Count in Build: " + SceneManager.sceneCountInBuildSettings);
-        #endif
-        
-        for (int i = 0; i < SceneManager.sceneCountInBuildSettings; i++)
-        {
-#if UNITY_EDITOR
-            string scenePath = SceneUtility.GetScenePathByBuildIndex(i);
-            string sceneName = System.IO.Path.GetFileNameWithoutExtension(scenePath);
-            Debug.Log("Scene " + i + ": " + sceneName);
-#endif
-        }
-        
-        #if UNITY_EDITOR
-        // Test specific scenes
-        Debug.Log("Can load _MAP_02: " + Application.CanStreamedLevelBeLoaded("_MAP_02"));
-        Debug.Log("Can load _MAP_08: " + Application.CanStreamedLevelBeLoaded("_MAP_08"));
-        #endif
     }
     
     // OPTIMIZED: Single method for force loading with cleanup
     public void ForceLoadScene(string sceneName)
     {
-        #if UNITY_EDITOR
-        Debug.Log("[GameManager] Force loading: " + sceneName);
-        #endif
         _LoadingManager._nextScene = "";
         System.GC.Collect();
         StartCoroutine(DelayedLoad(sceneName));
@@ -90,9 +63,6 @@ public class _GameManager : MonoBehaviour
     // OPTIMIZED: Single Addressables loader with fallback
     public void LoadSceneAddressable(string sceneName)
     {
-        #if UNITY_EDITOR
-        Debug.Log("[GameManager] Loading " + sceneName + " via Addressables");
-        #endif
         string[] addresses = { sceneName, "_" + sceneName, "Assets/Scenes/_MAP/" + sceneName + ".unity" };
         StartCoroutine(TryLoadAddressableScene(addresses, sceneName));
     }
@@ -114,9 +84,6 @@ public class _GameManager : MonoBehaviour
                 
                 if (loadHandle.Status == AsyncOperationStatus.Succeeded)
                 {
-                    #if UNITY_EDITOR
-                    Debug.Log("[GameManager] Loaded: " + address);
-                    #endif
                     Addressables.Release(checkHandle);
                     yield break;
                 }
@@ -124,9 +91,6 @@ public class _GameManager : MonoBehaviour
             Addressables.Release(checkHandle);
         } // end for
         
-        #if UNITY_EDITOR
-        Debug.LogWarning("[GameManager] Addressables failed, using SceneManager");
-        #endif
         LoadScene(fallbackScene);
     }
     
@@ -135,9 +99,6 @@ public class _GameManager : MonoBehaviour
     // Method để debug tất cả addressables có sẵn
     public void DebugAddressables()
     {
-        #if UNITY_EDITOR
-        Debug.Log("[GameManager] Debugging available Addressables...");
-        #endif
         StartCoroutine(ListAllAddressables());
     }
     
@@ -149,20 +110,6 @@ public class _GameManager : MonoBehaviour
         
         if (handle.Status == AsyncOperationStatus.Succeeded)
         {
-            #if UNITY_EDITOR
-            Debug.Log("[GameManager] Found " + handle.Result.Count + " addressable resources:");
-            // ZERO GC: Use for loop instead of foreach
-            for (int i = 0; i < handle.Result.Count; i++)
-            {
-                Debug.Log("[GameManager] - " + handle.Result[i].PrimaryKey);
-            }
-            #endif
-        }
-        else
-        {
-            #if UNITY_EDITOR
-            Debug.LogError("[GameManager] Failed to get addressable locations");
-            #endif
         }
         
         Addressables.Release(handle);

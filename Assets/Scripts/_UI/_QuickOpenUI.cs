@@ -29,7 +29,6 @@ public class _QuickOpenUI : MonoBehaviour
     {
         if (targetUI == null)
         {
-            Debug.LogWarning($"[QuickOpenUI] Chua gan targetUI tren {gameObject.name}!");
             return;
         }
 

@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Traps
   - LockGround
+  - DeadZone
   layers:
   - Default
   - TransparentFX
@@ -51,6 +52,9 @@ TagManager:
     locked: 0
   - name: Shadow
     uniqueID: 4240634811
+    locked: 0
+  - name: Enemy
+    uniqueID: 427249955
     locked: 0
   - name: Player
     uniqueID: 1478099517

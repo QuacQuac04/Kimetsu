@@ -34,7 +34,6 @@ public class _UIToggleAnimator : MonoBehaviour
     {
         if (targetPanel == null)
         {
-            Debug.LogError("Chưa gán targetPanel cho UIToggleAnimator!");
             return;
         }
 

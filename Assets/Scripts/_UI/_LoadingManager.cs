@@ -44,21 +44,15 @@ public class _LoadingManager : MonoBehaviour
     /// </summary>
     public void StartLoading()
     {
-        Debug.Log("[LoadingManager] StartLoading() duoc goi!");
-
         if (_loadingBar == null)
         {
-            Debug.LogError("[LoadingManager] _loadingBar chua duoc gan!");
             return;
         }
 
         if (_textLoading == null)
         {
-            Debug.LogError("[LoadingManager] _textLoading chua duoc gan!");
             return;
         }
-
-        Debug.Log("[LoadingManager] Bat dau loading scene: " + _nextScene);
         InitializePlayerAnimation();
         StartCoroutine(LoadSceneWithDelay(_nextScene));
     }
@@ -162,10 +156,6 @@ public class _LoadingManager : MonoBehaviour
 
         // Doi 0.5 giay roi load scene
         yield return new WaitForSeconds(0.5f);
-
-#if UNITY_EDITOR
-        Debug.Log("[LoadingManager] Loading scene: " + sceneName);
-#endif
 
         SceneManager.LoadScene(sceneName);
     }

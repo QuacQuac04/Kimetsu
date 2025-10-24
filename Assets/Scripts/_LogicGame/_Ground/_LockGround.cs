@@ -20,7 +20,6 @@ public class _LockGround : MonoBehaviour
         
         if (lockGroundCollider == null)
         {
-            Debug.LogError("[LockGround] Khong tim thay Collider2D! Can BoxCollider2D hoac PolygonCollider2D.");
             enabled = false;
             return;
         }
@@ -28,13 +27,7 @@ public class _LockGround : MonoBehaviour
         // KHONG bat Is Trigger - de chan that su
         if (lockGroundCollider.isTrigger)
         {
-            Debug.LogWarning("[LockGround] Collider.isTrigger = true. Chuyen thanh false de chan that su.");
             lockGroundCollider.isTrigger = false;
-        }
-        
-        if (showDebugLogs)
-        {
-            Debug.Log($"[LockGround] Initialized with {lockGroundCollider.GetType().Name} (Solid Collision)");
         }
     }
     
@@ -43,12 +36,6 @@ public class _LockGround : MonoBehaviour
         if (!enableBlocking) return;
         
         Collider2D other = collision.collider;
-        
-        // Debug: Hien thi tat ca tag de kiem tra
-        if (showDebugLogs && Time.frameCount % 60 == 0) // Moi 60 frame hien 1 lan
-        {
-            Debug.Log($"[LockGround] Collision with: {other.gameObject.name}, Tag: {other.tag}");
-        }
         
         // Chi xu ly Player
         if (!other.CompareTag("Player"))
@@ -64,20 +51,10 @@ public class _LockGround : MonoBehaviour
             Collider2D playerCollider = other;
             Physics2D.IgnoreCollision(lockGroundCollider, playerCollider, true);
             
-            if (showDebugLogs)
-            {
-                Debug.Log($"[LockGround] Player jumping - ignoring collision temporarily");
-            }
-            
             // Bat lai collision sau khi player khong nhay nua
             StartCoroutine(ReenableCollisionWhenNotJumping(player, playerCollider));
             
             return;
-        }
-        
-        if (showDebugLogs && Time.frameCount % 60 == 0)
-        {
-            Debug.Log($"[LockGround] BLOCKING player (not jumping)");
         }
     }
     
@@ -94,11 +71,6 @@ public class _LockGround : MonoBehaviour
         if (lockGroundCollider != null && playerCollider != null)
         {
             Physics2D.IgnoreCollision(lockGroundCollider, playerCollider, false);
-            
-            if (showDebugLogs)
-            {
-                Debug.Log($"[LockGround] Collision re-enabled");
-            }
         }
     }
     

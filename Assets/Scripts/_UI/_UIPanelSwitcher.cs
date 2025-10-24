@@ -66,7 +66,6 @@ public class _UIPanelSwitcher : MonoBehaviour
     {
         if (index < 0 || index >= buttonPanelPairs.Count)
         {
-            Debug.LogWarning($"Index {index} nam ngoai pham vi!");
             return;
         }
 
@@ -85,8 +84,6 @@ public class _UIPanelSwitcher : MonoBehaviour
                 return;
             }
         }
-        
-        Debug.LogWarning($"Khong tim thay panel voi ten: {panelName}");
     }
 
     private void UpdatePanelVisibility()
