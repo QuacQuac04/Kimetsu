@@ -5,19 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class _LoadingManager : MonoBehaviour
 {
-    public static string _nextScene = "_UI_Home";
-    
+    public static string _nextScene = "_UI_Create_igure";
+
     [Header("Loading Bar")]
     public Image _loadingBar;
     public Text _textLoading;
-    
+
     [Header("Player Image")]
     public RectTransform _playerImage; // Image player (_img_Load1)
     public RectTransform _loadingBarRect; // RectTransform của thanh loading để tính toán vị trí
-    
+
     [Header("Settings")]
     public float _loadingProgressTime = 3f; // Thoi gian loading (giay)
-    
+
     private Vector3 _startPosition;
     private Vector3 _endPosition;
     private int lastPercentage = -1;
@@ -29,40 +29,40 @@ public class _LoadingManager : MonoBehaviour
         {
             _loadingBar.fillAmount = 0f;
         }
-        
+
         if (_textLoading != null)
         {
             _textLoading.text = "0%";
         }
-        
+
         // KHONG tu dong bat dau loading
         // Chi load khi goi StartLoading() tu button
     }
-    
+
     /// <summary>
     /// Goi method nay tu Button Dang Nhap de bat dau loading
     /// </summary>
     public void StartLoading()
     {
         Debug.Log("[LoadingManager] StartLoading() duoc goi!");
-        
+
         if (_loadingBar == null)
         {
             Debug.LogError("[LoadingManager] _loadingBar chua duoc gan!");
             return;
         }
-        
+
         if (_textLoading == null)
         {
             Debug.LogError("[LoadingManager] _textLoading chua duoc gan!");
             return;
         }
-        
+
         Debug.Log("[LoadingManager] Bat dau loading scene: " + _nextScene);
         InitializePlayerAnimation();
         StartCoroutine(LoadSceneWithDelay(_nextScene));
     }
-    
+
     /// <summary>
     /// Goi method nay tu Button Dang Nhap de bat dau loading voi scene tu chon
     /// </summary>
@@ -72,22 +72,22 @@ public class _LoadingManager : MonoBehaviour
         InitializePlayerAnimation();
         StartCoroutine(LoadSceneWithDelay(_nextScene));
     }
-    
+
     private void InitializePlayerAnimation()
     {
         if (_playerImage == null || _loadingBarRect == null)
             return;
-        
+
         // Tính toán vị trí dựa trên thanh loading
         _startPosition = _loadingBarRect.position;
         _startPosition.x -= _loadingBarRect.rect.width * 0.5f * _loadingBarRect.lossyScale.x;
-        
+
         _endPosition = _loadingBarRect.position;
         _endPosition.x += _loadingBarRect.rect.width * 0.5f * _loadingBarRect.lossyScale.x;
-        
+
         // Đặt player ở vị trí bắt đầu
         _playerImage.position = _startPosition;
-        
+
         // Đảm bảo player visible
         _playerImage.gameObject.SetActive(true);
     }
@@ -98,13 +98,13 @@ public class _LoadingManager : MonoBehaviour
         while (!operation.isDone)
         {
             float progress = Mathf.Clamp01(operation.progress / 0.9f);
-            
+
             // Cap nhat loading bar
             if (_loadingBar != null)
             {
                 _loadingBar.fillAmount = progress;
             }
-            
+
             // Cap nhat text %
             int percentage = (int)(progress * 100f);
             if (percentage != lastPercentage && _textLoading != null)
@@ -112,10 +112,10 @@ public class _LoadingManager : MonoBehaviour
                 lastPercentage = percentage;
                 _textLoading.text = percentage + "%";
             }
-            
+
             // Di chuyen player image
             AnimatePlayer(progress);
-            
+
             yield return null;
         }
     }
@@ -123,17 +123,17 @@ public class _LoadingManager : MonoBehaviour
     public IEnumerator LoadSceneWithDelay(string sceneName)
     {
         float elapsedTime = 0f;
-        
+
         while (elapsedTime < _loadingProgressTime)
         {
             float progress = Mathf.Clamp01(elapsedTime / _loadingProgressTime);
-            
+
             // Cap nhat loading bar
             if (_loadingBar != null)
             {
                 _loadingBar.fillAmount = progress;
             }
-            
+
             // Cap nhat text %
             int percentage = (int)(progress * 100f);
             if (percentage != lastPercentage && _textLoading != null)
@@ -141,14 +141,14 @@ public class _LoadingManager : MonoBehaviour
                 lastPercentage = percentage;
                 _textLoading.text = percentage + "%";
             }
-            
+
             // Di chuyen player image
             AnimatePlayer(progress);
-            
+
             elapsedTime += Time.deltaTime;
             yield return null;
         }
-        
+
         // Hoan thanh loading - 100%
         if (_loadingBar != null)
         {
@@ -159,17 +159,17 @@ public class _LoadingManager : MonoBehaviour
             _textLoading.text = "100%";
         }
         AnimatePlayer(1f);
-        
+
         // Doi 0.5 giay roi load scene
         yield return new WaitForSeconds(0.5f);
-        
-        #if UNITY_EDITOR
+
+#if UNITY_EDITOR
         Debug.Log("[LoadingManager] Loading scene: " + sceneName);
-        #endif
-        
+#endif
+
         SceneManager.LoadScene(sceneName);
     }
-    
+
     private void AnimatePlayer(float progress)
     {
         if (_playerImage != null)

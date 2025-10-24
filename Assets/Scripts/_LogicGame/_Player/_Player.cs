@@ -11,6 +11,16 @@ public class _Player : MonoBehaviour
     [Header("Movement Settings")]
     [SerializeField] private float moveSpeed = 12f; // FIXED: Increased for smoother movement
 
+    [Header("Jump Settings")]
+    [SerializeField] private float jumpHeight = 2f; // Chieu cao nhay
+    [SerializeField] private float jumpDuration = 0.5f; // Thoi gian nhay len
+    [SerializeField] private float jumpHoldDuration = 0.3f; // Thoi gian giu o tren (X giay)
+    [SerializeField] private float jumpFallDuration = 0.5f; // Thoi gian roi xuong
+    [SerializeField] private AnimationCurve jumpUpCurve = AnimationCurve.EaseInOut(0, 0, 1, 1); // Duong cong nhay len
+    [SerializeField] private AnimationCurve jumpDownCurve = AnimationCurve.EaseInOut(0, 0, 1, 1); // Duong cong roi xuong
+    [SerializeField] private KeyCode jumpKey = KeyCode.Space; // Phim nhay (Space)
+    [SerializeField] private Transform shadowTransform; // Transform cua bong (optional)
+
     [Header("References")]
     public SkeletonAnimation skeletonAnimation;
 
@@ -34,6 +44,19 @@ public class _Player : MonoBehaviour
     // Pre-allocated vectors to avoid GC
     private Vector2 velocityBuffer = Vector2.zero;
     private Vector3 currentScale = Vector3.one;
+    
+    // Jump variables
+    private bool isJumping = false;
+    private int jumpPhase = 0; // 0=not jumping, 1=going up, 2=holding, 3=falling down
+    private float jumpPhaseStartTime = 0f;
+    private float groundY = 0f;
+    private float shadowGroundY = 0f;
+    
+    // Public property cho Lock Ground de kiem tra
+    public bool IsJumping => isJumping;
+    
+    // Previous position for movement tracking
+    private Vector2 previousPosition = Vector2.zero;
     
     // Minimal boid variables for compatibility - optimized for RAM
     private bool isBoidEnabled = false;
@@ -125,6 +148,27 @@ public class _Player : MonoBehaviour
         // Cache initial scale
         currentScale = myTransform.localScale;
         
+        // Jump system: Tu dong tim shadow neu khong gan
+        if (shadowTransform == null)
+        {
+            // Tim GameObject co ten "Shadow" hoac "Bong" trong children
+            Transform foundShadow = myTransform.Find("Shadow");
+            if (foundShadow == null) foundShadow = myTransform.Find("Bong");
+            if (foundShadow == null) foundShadow = myTransform.Find("shadow");
+            
+            if (foundShadow != null)
+            {
+                shadowTransform = foundShadow;
+                Debug.Log("[Player] Auto-found shadow: " + foundShadow.name);
+            }
+        }
+        
+        // Luu vi tri Y cua shadow ban dau
+        if (shadowTransform != null)
+        {
+            shadowGroundY = shadowTransform.position.y;
+        }
+        
         // Register boid in micro array (minimal RAM)
         RegisterBoid();
         
@@ -132,6 +176,9 @@ public class _Player : MonoBehaviour
         // InitializeQuadTree();
         // myEntityId = GetInstanceID();
         // UpdateSpatialBounds();
+        
+        // Initialize previous position for Lock Ground detection
+        previousPosition = myTransform.position;
     }
     
     // Animation throttling to reduce CPU load
@@ -146,6 +193,9 @@ public class _Player : MonoBehaviour
     void FixedUpdate()
     {
          if (isDead) return;
+        
+        // Save position before movement for Lock Ground boundary check
+        previousPosition = myTransform.position;
         
         // ===== TÍCH HỢP JOYSTICK + KEYBOARD =====
         // Lấy input từ keyboard
@@ -167,8 +217,32 @@ public class _Player : MonoBehaviour
         moveInputY = Mathf.Abs(keyboardY) > Mathf.Abs(joystickY) ? keyboardY : joystickY;
         // =======================================
         
+        // Jump input - CHO PHEP NHAY TU DO
+        if (Input.GetKeyDown(jumpKey) && !isJumping)
+        {
+            StartJump();
+        }
+        
         HandleMovement();
+        ProcessJump();
+        UpdateShadowWhenNotJumping();
         UpdateAnimations();
+    }
+    
+    /// <summary>
+    /// Cap nhat shadow khi KHONG nhay - shadow phai theo player
+    /// </summary>
+    void UpdateShadowWhenNotJumping()
+    {
+        if (shadowTransform != null && !isJumping)
+        {
+            // Shadow theo player hoan toan khi khong nhay
+            shadowTransform.position = new Vector3(
+                myTransform.position.x,
+                myTransform.position.y,
+                shadowTransform.position.z
+            );
+        }
     }
 
     void HandleMovement()
@@ -204,7 +278,7 @@ public class _Player : MonoBehaviour
             rb.linearVelocity = Vector2.zero;
         }
     }
-
+    
     // FIXED: Smooth animation system - no lag
     private static readonly string ANIM_IDLE = "Idle";
     private static readonly string ANIM_RUN = "Run";
@@ -229,6 +303,121 @@ public class _Player : MonoBehaviour
             {
                 skeletonAnimation.state.GetCurrent(0).TimeScale = 1f;
             }
+        }
+    }
+    
+    /// <summary>
+    /// Bat dau nhay
+    /// </summary>
+    void StartJump()
+    {
+        if (isJumping) return;
+        
+        isJumping = true;
+        jumpPhase = 1; // Phase 1: Going up
+        jumpPhaseStartTime = Time.time;
+        groundY = myTransform.position.y;
+        
+        // Luu Y cua shadow (neu co)
+        if (shadowTransform != null)
+        {
+            shadowGroundY = shadowTransform.position.y;
+        }
+    }
+    
+    /// <summary>
+    /// Xu ly logic nhay (tao toa do Z ao) - 3 giai doan: len, giu, xuong
+    /// </summary>
+    void ProcessJump()
+    {
+        if (!isJumping) return;
+        
+        float elapsedTime = Time.time - jumpPhaseStartTime;
+        
+        // PHASE 1: GOING UP
+        if (jumpPhase == 1)
+        {
+            float progress = elapsedTime / jumpDuration;
+            
+            if (progress >= 1f)
+            {
+                // Chuyen sang phase 2: Holding
+                jumpPhase = 2;
+                jumpPhaseStartTime = Time.time;
+                
+                // Giu vi tri o dinh
+                Vector3 newPos = myTransform.position;
+                newPos.y = groundY + jumpHeight;
+                myTransform.position = newPos;
+            }
+            else
+            {
+                // Nhay len
+                float jumpOffset = jumpUpCurve.Evaluate(progress) * jumpHeight;
+                Vector3 newPos = myTransform.position;
+                newPos.y = groundY + jumpOffset;
+                myTransform.position = newPos;
+            }
+        }
+        // PHASE 2: HOLDING (giu o tren X giay)
+        else if (jumpPhase == 2)
+        {
+            if (elapsedTime >= jumpHoldDuration)
+            {
+                // Chuyen sang phase 3: Falling down
+                jumpPhase = 3;
+                jumpPhaseStartTime = Time.time;
+            }
+            // Giu vi tri o dinh
+            Vector3 newPos = myTransform.position;
+            newPos.y = groundY + jumpHeight;
+            myTransform.position = newPos;
+        }
+        // PHASE 3: FALLING DOWN
+        else if (jumpPhase == 3)
+        {
+            float progress = elapsedTime / jumpFallDuration;
+            
+            if (progress >= 1f)
+            {
+                // Ket thuc nhay
+                isJumping = false;
+                jumpPhase = 0;
+                
+                // Ve lai ground
+                Vector3 newPos = myTransform.position;
+                newPos.y = groundY;
+                myTransform.position = newPos;
+            }
+            else
+            {
+                // Roi xuong
+                float jumpOffset = jumpHeight * (1f - jumpDownCurve.Evaluate(progress));
+                Vector3 newPos = myTransform.position;
+                newPos.y = groundY + jumpOffset;
+                myTransform.position = newPos;
+            }
+        }
+        
+        // UPDATE SHADOW: Theo X cua player, nhung Y giu nguyen
+        if (shadowTransform != null)
+        {
+            shadowTransform.position = new Vector3(
+                myTransform.position.x, // Theo X cua player
+                shadowGroundY,          // Y giu nguyen
+                shadowTransform.position.z
+            );
+        }
+    }
+    
+    /// <summary>
+    /// Ham public de goi tu UI Button
+    /// </summary>
+    public void OnJumpButtonPressed()
+    {
+        if (!isJumping && !isDead)
+        {
+            StartJump();
         }
     }
     
@@ -261,7 +450,7 @@ public class _Player : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Traps"))
+        if (collision.CompareTag("DeadZone"))
         {
             DiePlayer();
         }

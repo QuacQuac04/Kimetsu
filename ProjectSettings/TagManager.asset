@@ -5,6 +5,7 @@ TagManager:
   serializedVersion: 3
   tags:
   - Traps
+  - LockGround
   layers:
   - Default
   - TransparentFX

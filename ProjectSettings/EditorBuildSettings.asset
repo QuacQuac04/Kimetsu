@@ -9,6 +9,9 @@ EditorBuildSettings:
     path: Assets/Scenes/_UI/_UI_Loading.unity
     guid: 0fe01cb6a4bad44fc92c2304f615d6f8
   - enabled: 1
+    path: Assets/Scenes/_UI/_UI_Create_igure.unity
+    guid: 80a1702e195ca4d5c9d234f550a16a36
+  - enabled: 1
     path: Assets/Scenes/_UI/_UI_Home.unity
     guid: 4b4dcd594816f4c79a2d1b678cb3a52f
   - enabled: 0
@@ -17,9 +20,6 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/_UI/_UI_CreateAccount.unity
     guid: ddb2818c69e0c4b9e9a1c8b0926e1ebf
-  - enabled: 0
-    path: Assets/Scenes/_UI/_UI_Create_igure.unity
-    guid: 80a1702e195ca4d5c9d234f550a16a36
   - enabled: 0
     path: Assets/Scenes/_MAP/_MAP_02.unity
     guid: 00b926f2e1cb442c284afd3d52054841
