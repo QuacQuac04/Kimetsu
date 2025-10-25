@@ -35,8 +35,9 @@ public class _LoadingManager : MonoBehaviour
             _textLoading.text = "0%";
         }
 
-        // KHONG tu dong bat dau loading
-        // Chi load khi goi StartLoading() tu button
+        // Tu dong bat dau loading khi scene duoc load (vi Teleport da set _nextScene)
+        Debug.Log("LoadingManager Start - Next scene: " + _nextScene);
+        StartLoading();
     }
 
     /// <summary>
@@ -44,15 +45,23 @@ public class _LoadingManager : MonoBehaviour
     /// </summary>
     public void StartLoading()
     {
+        Debug.Log("=== StartLoading() duoc goi! ===");
+        
         if (_loadingBar == null)
         {
+            Debug.LogError("_loadingBar is NULL!");
             return;
         }
 
         if (_textLoading == null)
         {
+            Debug.LogError("_textLoading is NULL!");
             return;
         }
+        
+        Debug.Log("Bat dau loading den scene: " + _nextScene);
+        Debug.Log("Thoi gian loading: " + _loadingProgressTime + " giay");
+        
         InitializePlayerAnimation();
         StartCoroutine(LoadSceneWithDelay(_nextScene));
     }
@@ -116,6 +125,7 @@ public class _LoadingManager : MonoBehaviour
 
     public IEnumerator LoadSceneWithDelay(string sceneName)
     {
+        Debug.Log("LoadSceneWithDelay coroutine bat dau!");
         float elapsedTime = 0f;
 
         while (elapsedTime < _loadingProgressTime)

@@ -56,8 +56,14 @@ TagManager:
   - name: Enemy
     uniqueID: 427249955
     locked: 0
+  - name: Teleport
+    uniqueID: 1258801291
+    locked: 0
   - name: Player
     uniqueID: 1478099517
+    locked: 0
+  - name: ShowChat
+    uniqueID: 1236017809
     locked: 0
   - name: Foreground
     uniqueID: 2663042465

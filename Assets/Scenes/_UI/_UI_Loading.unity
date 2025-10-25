@@ -5130,16 +5130,16 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1803482825}
-        m_TargetAssemblyTypeName: _LoadingManager, Assembly-CSharp
-        m_MethodName: StartLoading
-        m_Mode: 1
+      - m_Target: {fileID: 1803482828}
+        m_TargetAssemblyTypeName: _GameManager, Assembly-CSharp
+        m_MethodName: LoadScene
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: _UI_Loading_Map
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &959669206
@@ -5149,7 +5149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 959669201}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cdac458a420674da6bf300c80731d124, type: 3}
   m_Name: 
@@ -10653,6 +10653,7 @@ GameObject:
   - component: {fileID: 1803482826}
   - component: {fileID: 1803482825}
   - component: {fileID: 1803482827}
+  - component: {fileID: 1803482828}
   m_Layer: 0
   m_Name: GameManager
   m_TagString: Untagged
@@ -10667,7 +10668,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1803482824}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64a0d1f81cc6b40dc8de9d5cacf3c94b, type: 3}
   m_Name: 
@@ -10676,7 +10677,7 @@ MonoBehaviour:
   _textLoading: {fileID: 1055275248}
   _playerImage: {fileID: 313070106}
   _loadingBarRect: {fileID: 1765678597}
-  _loadingProgressTime: 10
+  _loadingProgressTime: 5e+13
 --- !u!4 &1803482826
 Transform:
   m_ObjectHideFlags: 0
@@ -10708,6 +10709,18 @@ MonoBehaviour:
   toggleButton: {fileID: 505492373}
   eyeOpenImage: {fileID: 1058701796}
   eyeClosedImage: {fileID: 106098609}
+--- !u!114 &1803482828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803482824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf2d113dfe5ad4a549cd1b819351a5cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::_GameManager
 --- !u!1 &1813739019
 GameObject:
   m_ObjectHideFlags: 0

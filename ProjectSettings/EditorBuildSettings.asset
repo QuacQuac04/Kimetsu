@@ -12,18 +12,15 @@ EditorBuildSettings:
     path: Assets/Scenes/_UI/_UI_Create_igure.unity
     guid: 80a1702e195ca4d5c9d234f550a16a36
   - enabled: 1
+    path: Assets/Scenes/_UI/_UI_Loading_Map.unity
+    guid: 526615b80dc7442dcb8ed1b6c297f977
+  - enabled: 1
     path: Assets/Scenes/_UI/_UI_Home.unity
     guid: 4b4dcd594816f4c79a2d1b678cb3a52f
-  - enabled: 0
-    path: Assets/Scenes/_UI/_UI_Login.unity
-    guid: 3654642b8b00d4e7786bb21ac8f18b31
-  - enabled: 0
-    path: Assets/Scenes/_UI/_UI_CreateAccount.unity
-    guid: ddb2818c69e0c4b9e9a1c8b0926e1ebf
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/_MAP/_MAP_02.unity
     guid: 00b926f2e1cb442c284afd3d52054841
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/_MAP/_MAP_08.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   m_configObjects:

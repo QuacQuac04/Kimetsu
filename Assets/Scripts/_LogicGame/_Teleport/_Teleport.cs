@@ -4,17 +4,24 @@ using UnityEngine.SceneManagement;
 public class _Teleport : MonoBehaviour
 {
     [Header("Scene Settings")]
-    [Tooltip("Tên scene cần load (phải có trong Build Settings)")]
-    [SerializeField] private string sceneName;
+    [Tooltip("Tên scene đích (map muốn teleport đến)")]
+    [SerializeField] private string targetSceneName;
+    
+    [Tooltip("Tên scene loading (mặc định: _UI_Loading_Map)")]
+    [SerializeField] private string loadingSceneName = "_UI_Loading_Map";
+    
+    [Tooltip("Có hiển thị loading screen không?")]
+    [SerializeField] private bool useLoadingScreen = true;
     
     [Header("Optional Settings")]
     [Tooltip("Tag của player (mặc định là 'Player')")]
     [SerializeField] private string playerTag = "Player";
     
     [Tooltip("Delay trước khi load scene (giây)")]
-    [SerializeField] private float loadDelay = 0f;
+    [SerializeField] private float loadDelay = 0.5f;
 
-    private void OnTriggerEnter(Collider other)
+    // Game 2D - sử dụng OnTriggerEnter2D
+    private void OnTriggerEnter2D(Collider2D other)
     {
         // Kiểm tra xem object va chạm có tag Player không
         if (other.CompareTag(playerTag))
@@ -24,9 +31,9 @@ public class _Teleport : MonoBehaviour
         }
     }
 
-    // Nếu game của bạn là 2D, uncomment phần này và comment OnTriggerEnter ở trên
+    // Nếu game của bạn là 3D, uncomment phần này và comment OnTriggerEnter2D ở trên
     /*
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag(playerTag))
         {
@@ -37,8 +44,9 @@ public class _Teleport : MonoBehaviour
 
     private void LoadScene()
     {
-        if (string.IsNullOrEmpty(sceneName))
+        if (string.IsNullOrEmpty(targetSceneName))
         {
+            Debug.LogError("Target Scene Name is empty!");
             return;
         }
 
@@ -54,6 +62,20 @@ public class _Teleport : MonoBehaviour
 
     private void LoadSceneDelayed()
     {
-        SceneManager.LoadScene(sceneName);
+        if (useLoadingScreen)
+        {
+            // Lưu map đích vào LoadingManager
+            _LoadingManager._nextScene = targetSceneName;
+            Debug.Log("Teleport: Set next scene = " + targetSceneName + ", loading scene = " + loadingSceneName);
+            
+            // Load scene loading
+            SceneManager.LoadScene(loadingSceneName);
+        }
+        else
+        {
+            // Load trực tiếp không qua loading
+            Debug.Log("Teleport: Load truc tiep den " + targetSceneName);
+            SceneManager.LoadScene(targetSceneName);
+        }
     }
 }

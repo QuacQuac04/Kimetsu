@@ -32,22 +32,11 @@ public class _UIPanelSwitcher_Animated : MonoBehaviour
     public Color activeButtonColor = Color.white;
     public Color inactiveButtonColor = new Color(0.7f, 0.7f, 0.7f, 1f);
 
-    [Header("Tuy chon am thanh (Optional)")]
-    public AudioClip switchSound;
-    private AudioSource audioSource;
-
     private int currentActiveIndex = -1;
     private bool isTransitioning = false;
 
     private void Start()
     {
-        // Setup AudioSource neu co sound
-        if (switchSound != null)
-        {
-            audioSource = gameObject.AddComponent<AudioSource>();
-            audioSource.playOnAwake = false;
-        }
-
         // Gan su kien cho cac nut
         for (int i = 0; i < buttonPanelPairs.Count; i++)
         {
@@ -117,12 +106,6 @@ public class _UIPanelSwitcher_Animated : MonoBehaviour
         if (index == currentActiveIndex || isTransitioning)
         {
             return;
-        }
-
-        // Phat am thanh
-        if (switchSound != null && audioSource != null)
-        {
-            audioSource.PlayOneShot(switchSound);
         }
 
         if (useAnimation)

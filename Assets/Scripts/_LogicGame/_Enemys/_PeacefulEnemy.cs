@@ -5,7 +5,7 @@ public class _PeacefulEnemy : _Enemy
 {
     [Header("Hành vi của Peaceful Enemy")]
     public bool canMove = true;
-    public float wanderRange = 2f;
+    public float wanderRange = 0f;
     private Vector3 startPosition;
 
     protected override void Start()
@@ -18,6 +18,19 @@ public class _PeacefulEnemy : _Enemy
         attackDamage = 0;
         moveSpeed = 1f;
         startPosition = transform.position;
+        
+        // Kiểm tra giá trị hợp lệ
+        if (wanderRange <= 0)
+        {
+            Debug.LogWarning(gameObject.name + ": wanderRange <= 0, disabling movement");
+            canMove = false; // Tắt movement nếu wanderRange <= 0
+        }
+        
+        if (float.IsNaN(startPosition.x) || float.IsNaN(startPosition.y) || float.IsNaN(startPosition.z))
+        {
+            Debug.LogError(gameObject.name + ": startPosition is NaN!");
+            startPosition = Vector3.zero;
+        }
     }
 
     private void Update()
@@ -32,6 +45,15 @@ public class _PeacefulEnemy : _Enemy
     {
         // Enemy di chuyển nhẹ qua lại quanh vị trí ban đầu
         float newX = Mathf.PingPong(Time.time * moveSpeed, wanderRange) + startPosition.x - wanderRange / 2;
+        
+        // Kiểm tra NaN trước khi gán
+        if (float.IsNaN(newX))
+        {
+            Debug.LogError(gameObject.name + ": newX is NaN! Disabling movement.");
+            canMove = false;
+            return;
+        }
+        
         transform.position = new Vector3(newX, transform.position.y, transform.position.z);
     }
 
